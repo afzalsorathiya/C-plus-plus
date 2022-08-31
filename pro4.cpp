@@ -1,8 +1,9 @@
 # include<iostream>
 
 using namespace std;
-int glo = 6;
-void sum(){
+int glo = 6; // this is global variable
+
+void sum(){ // this is function nothing return
     int a; 
     cout<< glo;
     }
@@ -16,10 +17,15 @@ int main(){
     float pi=3.14;
     char c ='d';
     bool is_true = false;
-    sum();
-    cout<<glo<< is_true;
+    sum(); // 6
+    cout<<glo<< is_true; // 78 << flase
     // cout<<"This is tutorial 4.\nHere the value of a is "<<a<<".\nThe value of b is "<< b;
     // cout<<"\nThe value of pi is: "<<pi;
     // cout<<"\nThe value of c is: "<<c;
     return 0;
 }
+
+/*
+output
+
+*/
