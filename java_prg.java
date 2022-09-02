@@ -87,6 +87,41 @@ public class java_prg {
         //         System.out.println("please select valid number");
         //         break;
         // }
+        
+        // for loop 
+        // for(int i = 0; i<11;i++){
+        //     System.out.print (i +  "  ");
+        // }
 
-    }
+        // while loop 
+        // int i = 0;
+        // while (i<11) {
+        //     System.out.print (i +  "  ");
+        //     i++;
+        // }
+// Question 
+// print the sum of first n natural numbers
+        // int sum = 0; // initialize variable
+        // System.out.println("Enter a Number");
+        // Scanner obj = new Scanner(System.in);
+        // int n = obj.nextInt();
+        // // System.out.println("Your number is " + n);
+
+        
+        // for(int i = 1; i<=n; i++){
+        //     sum  = sum + i;
+        // }
+        // System.out.println(sum);
+
+// print the table of a number input by the user.
+
+            // Scanner obj = new Scanner(System.in);
+            // System.out.println("Enter a number");
+            // int num = obj.nextInt(); 
+            // System.out.println("----------------Your Table is ------------------------");
+            // for(int i = 1; i<11;i++){
+            //     System.out.println(i*num);
+            // }
+
+    }                                                                                           
 }
